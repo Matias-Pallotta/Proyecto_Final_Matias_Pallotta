@@ -1,0 +1,27 @@
+@import "_index";
+@import "_galeria";
+@import "_certificaciones";
+@import "_contacto";
+@import "_nuestrahistoria";
+@import "_mediaqueries";
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*variables*/
+$primera-gradient: linear-gradient(to right, rgb(13, 146, 166), rgb(18, 18, 138));
+$segunda-gradient: linear-gradient(to left, rgb(13, 146, 166), rgb(18, 18, 138));
+$background-color: #9c9696;
+$font-family-main: "Arial", sans-serif;
+$font-family-header: "Oswald", sans-serif;
+$color-gold-titulo:gold;
+$color-gold: rgb(119, 91, 19);
+$color-gold-cards: rgb(190, 168, 43);
+$color-black: black;
+$color-gray: gray;
+$color-bordo: rgb(134, 11, 11);

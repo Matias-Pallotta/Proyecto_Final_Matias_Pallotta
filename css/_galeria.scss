@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*variables*/
+$primera-gradient: linear-gradient(to right, rgb(13, 146, 166), rgb(18, 18, 138));
+$segunda-gradient: linear-gradient(to left, rgb(13, 146, 166), rgb(18, 18, 138));
+$background-color: #9c9696;
+$font-family-main: "Arial", sans-serif;
+$font-family-header: "Oswald", sans-serif;
+$color-gold-titulo:gold;
+$color-gold: rgb(119, 91, 19);
+$color-gold-cards: rgb(190, 168, 43);
+$color-black: black;
+$color-gray: gray;
+$color-bordo: rgb(134, 11, 11);
+
+
+.navbar{
+    background: $primera-gradient;
+}
+.collapse {
+    .nav-link{
+    font-weight: bold;
+    color: black;
+    }
+}
+
+main{
+    background-color: $background-color;
+}
+
+.nav-link{
+    transition: all 0.8s;
+    color: black;
+    }
+    
+.collapse {
+    .nav-link{
+    &:hover{    
+    color:gold !important;
+  }
+ }
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+span {
+  color:$color-gold-titulo;
+  text-shadow: 0px 0px 5px black;
+  font-family: $font-family-main;
+  letter-spacing: 7px;
+  font-size: 22px;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  box-shadow: 0 0 18px black;
+  z-index: 1;
+}
+
+/* SECCION GALERIA */
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .card{
+      background-color: $background-color;
+  }
+  
+  .card-textt{
+      color: $color-black;
+  }
+  
+  .card-textt:hover{
+      color: $color-gold-cards;
+  }
+  
+  .card {
+    transition: all 0.7s;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 15px black;
+  }
+  
+  .FLOTA {
+  h2 {
+    text-align: center;
+    margin: 20px;
+    color: $color-bordo;
+    text-shadow: 0 0 2px black;
+   }
+  }
+  .FLOTA {
+  p{
+    font-size: 17px;
+    color: $color-gold;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  }
+  footer {
+    width: 100%;
+    max-width: 100%;
+    background-color: $color-gray;
+    overflow: hidden;
+  }
+  
+  footer p {
+    color: black;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-family:$font-family-main;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+  }

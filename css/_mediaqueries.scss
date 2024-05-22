@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*variables*/
+$primera-gradient: linear-gradient(to right, rgb(13, 146, 166), rgb(18, 18, 138));
+$segunda-gradient: linear-gradient(to left, rgb(13, 146, 166), rgb(18, 18, 138));
+$background-color: #9c9696;
+$font-family-main: "Arial", sans-serif;
+$font-family-header: "Oswald", sans-serif;
+$color-gold-titulo:gold;
+$color-gold: rgb(119, 91, 19);
+$color-gold-cards: rgb(190, 168, 43);
+$color-black: black;
+$color-gray: gray;
+$color-bordo: rgb(134, 11, 11);
+
+
+/* Estilos para tamaño de tablet */
+@media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 18px;
+      padding: 10px;
+    }
+    .container-fluid {
+      font-size: 16px;
+      padding: 10px;
+    }
+    .navbar-nav {
+      flex-direction: column;
+    }
+    .collapse {
+      justify-content: center;
+    }
+    .card {
+      width: 80%;
+    }
+    .card-img-overlay {
+      padding: 10px;
+    }
+    footer p {
+      font-size: 20px;
+      padding-top: 10px;
+    }
+  }
+
+  /* Estilo para celular seccion galeria*/
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 16px;
+    padding: 8px;
+  }
+  .container-fluid {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .collapse {
+    justify-content: center;
+  }
+  .card {
+    width: 100%; 
+    margin-bottom: 16px;
+  }
+  .card-img-overlay {
+    padding: 8px;
+  }
+  footer p {
+    font-size: 18px;
+    padding-top: 8px;
+  }
+}
+
+/* Estilo para tablet seccion galeria*/
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .container-fluid {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .collapse {
+    justify-content: center;
+  }
+  .card {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+  .cards {
+    display: block;
+  }
+  .card-img-overlay {
+    padding: 10px;
+  }
+  footer p {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+}
+    
+    /* Estilos para tamaño de celular */
+    @media (max-width: 576px) {
+      .navbar-brand {
+        font-size: 14px;
+        padding: 8px;
+      }
+      .container-fluid {
+        font-size: 14px;
+        padding: 8px;
+      }
+      .navbar-nav {
+        flex-direction: column;
+      }
+      .collapse {
+        justify-content: center;
+      }
+      .card {
+        flex: 1 1 100%;
+        width: 90%;
+      }
+      .card-img-overlay {
+        padding: 8px;
+      }
+      footer p {
+        font-size: 18px;
+        padding-top: 8px;
+      }
+    }
+    /* Estilos para tablet seccion Nuestrahistoria */
+  @media (max-width: 768px) {
+      .navbar-brand {
+        font-size: 16px;
+        padding: 10px;
+      }
+      .container-fluid {
+        font-size: 16px;
+        padding: 10px;
+      }
+      .navbar-nav {
+        flex-direction: column;
+      }
+      .collapse {
+        justify-content: center;
+      }
+      .card {
+        width: 90%;
+      }
+      .card-texttt{
+        font-size: 12px;
+      }
+      .card-img-overlay {
+        padding: 10px;
+      }
+      footer p {
+        font-size: 20px;
+        padding-top: 10px;
+      }
+      .card1 {
+        width: 90%;
+      }
+    }
+    
+    /* Estilos para  celular seccion Nuestrahistoria*/
+    @media (max-width: 576px) {
+      .navbar-brand {
+        font-size: 14px;
+        padding: 8px;
+      }
+      .container-fluid {
+        font-size: 14px;
+        padding: 8px;
+      }
+      .navbar-nav {
+        flex-direction: column;
+      }
+      .collapse {
+        justify-content: center;
+      }
+      .card {
+        width: 100%;
+      }
+      .card-texttt{
+        font-size: 9px;
+      }
+      .card-img-overlay {
+        padding: 8px;
+      }
+      footer p {
+        font-size: 18px;
+        padding-top: 8px;
+      }
+      .card1 {
+        width: 100%;
+      }
+    }
