@@ -114,20 +114,23 @@ main {
     overflow: hidden;
   }
   
-  footer p {
-    color: black;
+  footer {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    background: $segunda-gradient;
+  }
+  
+  footer {
+    p{
+    color:$color-black;
     text-shadow: 0 0 5px rgb(0, 0, 0);
-    font-family:$font-family-main;
+    font-family: $font-family-header;
     font-size: 30px;
     text-align: center;
     padding: 15px 0;
     margin: 0;
-  }
-  footer {
-    width: 100%;
-    max-width: 100%;
-    background-color: $color-gray;
-    overflow: hidden;
+      }
   }
   
   footer p {
